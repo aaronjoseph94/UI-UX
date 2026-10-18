@@ -10,6 +10,7 @@ Costs and “(new)” tags are as in the source table, Oct 2026 — prices and s
 ## Contents
 
 - [Quick reference](#quick-reference)
+- [By cost — Free vs Paid](#by-cost--free-vs-paid)
 - [How to pick](#how-to-pick)
 - [Architecture — where each category sits](#architecture--where-each-category-sits)
 - [The collection — 79 libraries](#the-collection--79-libraries)
@@ -102,6 +103,113 @@ Costs and “(new)” tags are as in the source table, Oct 2026 — prices and s
 | 77 | [One Page Love (new)](https://onepagelove.com) | Inspiration | — | Free to browse; some templates are paid | 9,000+ one-page sites and section examples |
 | 78 | [Footer.design (new)](https://www.footer.design) | Inspiration | — | Free | Website footers |
 | 79 | [Dark.design (new)](https://www.dark.design) | Inspiration | — | Free | Dark-themed websites |
+
+---
+
+## By cost — Free vs Paid
+
+Same 79 libraries, re-sorted by cost. Categories above stay the primary organisation — this is the cross-cutting view when budget is the filter.
+
+- **49 fully free** — no paid tier listed
+- **29 freemium** — free tier / free core + paid Pro / Premium / paid kits
+- **1 unknown** — no pricing shown (Bencho)
+- **0 paid-only** — every paid option in this list has a free tier, free core, or free sample. “Paid” here means “has a paid upgrade”, not “costs money to start”.
+
+Note: free ≠ unlimited. Check limits before relying on a free tier: 21st.dev has a daily copy limit, Originkit allows 10 free copies/day, Kobra gives 10 free for personal use only, Backgrounds Supply’s 100+ free are personal-use only.
+
+### Fully free — 49
+
+| # | Library | Category | Best for |
+|---|---------|----------|----------|
+| 1 | [shadcn/ui](https://ui.shadcn.com) | Start here | The base components most of this list is built on |
+| 3 | [Base UI (new)](https://base-ui.com) | Start here | Accessible building blocks from the Material UI team; shadcn/ui can run on it |
+| 5 | [Shoogle](https://shoogle.dev) | Find components | Searching about 390 shadcn component libraries at once |
+| 6 | [Uiverse](https://uiverse.io) | Works on any site (including WordPress) | 7,000+ buttons, loaders, toggles, cards and inputs |
+| 7 | [CSS Button Library](https://animatedbuttons.colorion.co) | Works on any site (including WordPress) | 99 button hover effects |
+| 10 | [daisyUI (new)](https://daisyui.com) | Works on any site (including WordPress) | Ready-made component classes (buttons, cards, modals) for plain HTML |
+| 13 | [HyperUI (new)](https://hyperui.dev) | Works on any site (including WordPress) | Copy-paste sections for marketing sites and dashboards |
+| 14 | [Basecoat (new)](https://basecoatui.com) | Works on any site (including WordPress) | The shadcn/ui look without React |
+| 15 | [GSAP (new)](https://gsap.com) | Animation libraries (plain JavaScript, any site) | Scroll-triggered and timeline animations |
+| 16 | [Anime.js (new)](https://animejs.com) | Animation libraries (plain JavaScript, any site) | Lightweight animations of CSS, SVG and page elements |
+| 17 | [Lenis (new)](https://lenis.darkroom.engineering) | Animation libraries (plain JavaScript, any site) | Smooth scrolling; pairs well with GSAP |
+| 18 | [Swup (new)](https://swup.js.org) | Animation libraries (plain JavaScript, any site) | Animated page transitions without building a single-page app |
+| 19 | [AutoAnimate (new)](https://auto-animate.formkit.com) | Animation libraries (plain JavaScript, any site) | One-line animations when items are added, removed or moved |
+| 20 | [Number Flow (new)](https://number-flow.barvian.me) | Animation libraries (plain JavaScript, any site) | Animated, odometer-style numbers |
+| 25 | [Rare UI](https://www.rareui.com) | Landing-page effects | Unusual effects like animated orbs and grid reveals |
+| 26 | [Spell UI](https://spell.sh) | Landing-page effects | Small animated text, buttons and backgrounds |
+| 27 | [ObsidianUI](https://obsidianui.dev) | Landing-page effects | Showpiece galleries, marquees and text effects (small, new library) |
+| 32 | [Canvas UI (new)](https://canvasui.dev) | Landing-page effects | WebGL effects layered over real HTML. Some effects need an experimental Chrome feature for now |
+| 34 | [Animate UI](https://animate-ui.com) | Micro-interactions | Animated dialogs, tabs, accordions and tooltips |
+| 35 | [useLayouts](https://uselayouts.com) | Micro-interactions | Animated tabs, menus and hover effects |
+| 36 | [Nexvyn UI](https://ui.nexvyn.dev) | Micro-interactions | Sliders, color picker, gooey dropdowns |
+| 38 | [SmoothUI (new)](https://smoothui.dev) | Micro-interactions | About 200 polished animated components, plus blocks and templates |
+| 39 | [Spectrum UI](https://ui.spectrumhq.in) | Full component kits | A big free set for SaaS and AI apps; has an MCP server for AI tools |
+| 43 | [XiodUI](https://ui.xiod.dev) | Full component kits | Special inputs such as phone numbers, payment cards and pickers |
+| 44 | [coss ui (new)](https://coss.com/ui) | Full component kits | Cal.com's design system (formerly Origin UI), built on Base UI |
+| 45 | [Astryx (new)](https://astryx.atmeta.com) | Full component kits | Meta's 170+ component design system, now open source |
+| 46 | [shadcn-vue (new)](https://shadcn-vue.com) | Vue and Svelte | shadcn/ui in Vue projects |
+| 47 | [shadcn-svelte (new)](https://shadcn-svelte.com) | Vue and Svelte | shadcn/ui in Svelte projects |
+| 48 | [Vue Bits (new)](https://vue-bits.dev) | Vue and Svelte | The Vue version of React Bits |
+| 50 | [Beautiful UI](https://beautifului.dev) | AI chat and agent UI | “Thinking” states, streaming text, approval cards |
+| 52 | [Halaska UI](https://ui.halaska.com) | AI chat and agent UI | AI app screens (chat, canvas) that a coding agent sets up for you |
+| 54 | [assistant-ui (new)](https://www.assistant-ui.com) | AI chat and agent UI | A full ChatGPT-style chat interface in your own app |
+| 55 | [AI Elements (new)](https://ai-sdk.dev/elements) | AI chat and agent UI | Vercel's chat building blocks (messages, reasoning, tool calls) for AI SDK apps |
+| 59 | [Keyline Icons](https://keylineicons.com) | Icons | 1,233 icons in 8 variants each, drawn to match shadcn's icons |
+| 60 | [Lucide (new)](https://lucide.dev) | Icons | The clean line icons shadcn/ui uses by default |
+| 61 | [Tabler Icons (new)](https://tabler.io/icons) | Icons | 6,000+ consistent line icons |
+| 62 | [Simple Icons (new)](https://simpleicons.org) | Icons | Brand and company logos |
+| 63 | [lucide-animated (new)](https://lucide-animated.com) | Icons | 350+ animated versions of Lucide icons |
+| 65 | [PatternCraft (new)](https://patterncraft.fun) | Backgrounds, shaders and tools | 100+ copy-paste background patterns and gradients |
+| 66 | [Paper Shaders (new)](https://shaders.paper.design) | Backgrounds, shaders and tools | Mesh gradients, grain, dithering and other shader backgrounds |
+| 68 | [animos](https://animos.app) | Backgrounds, shaders and tools | Turning design screenshots into showcase videos |
+| 70 | [Godly](https://godly.design) | Inspiration | Standout website and landing-page designs |
+| 71 | [Detail](https://detail.design) | Inspiration | Small details that make a UI feel polished |
+| 72 | [Built by Designers](https://builtbydesigners.com) | Inspiration | Real products that designers built themselves |
+| 73 | [before.click](https://before.click) | Inspiration | iOS App Store screenshots, paywalls, onboarding screens |
+| 75 | [Saaspo (new)](https://saaspo.com) | Inspiration | 3,000+ SaaS website pages, sorted by page type and industry |
+| 76 | [Supahero (new)](https://supahero.io) | Inspiration | Website hero sections |
+| 78 | [Footer.design (new)](https://www.footer.design) | Inspiration | Website footers |
+| 79 | [Dark.design (new)](https://www.dark.design) | Inspiration | Dark-themed websites |
+
+### Freemium — free + paid upgrade — 29
+
+| # | Library | Category | Cost | Best for |
+|---|---------|----------|------|----------|
+| 2 | [Motion](https://motion.dev) | Start here | Free; Motion+ is a one-time purchase (€299 at launch) | Writing your own animations; most libraries here use it |
+| 4 | [21st.dev](https://21st.dev) | Find components | Free to browse, with a daily copy limit; paid from $6/mo, billed yearly | 12,000+ community components that install straight into AI coding tools |
+| 8 | [Transitions.dev](https://transitions.dev) | Works on any site (including WordPress) | Free core; Pro $9/mo or $149 one-time | Animations for modals, toasts and tooltips; an AI agent can add them for you |
+| 9 | [Web Awesome (new)](https://webawesome.com) | Works on any site (including WordPress) | Free core; Pro is paid | 50+ ready-made components you drop into plain HTML |
+| 11 | [Flowbite (new)](https://flowbite.com) | Works on any site (including WordPress) | Free core; Pro is paid | Interactive components (dropdowns, modals, carousels) that come with their own JavaScript |
+| 12 | [Preline UI (new)](https://preline.co) | Works on any site (including WordPress) | Free core; Pro $249 one-time | A large set of components, blocks and templates |
+| 21 | [Magic UI](https://magicui.design) | Landing-page effects | Free; Pro $199 one-time | Text effects, marquees, animated backgrounds |
+| 22 | [Aceternity UI](https://ui.aceternity.com) | Landing-page effects | Free; Pro $169/yr or $199 one-time (sale prices) | Flashy hero sections and effects |
+| 23 | [React Bits](https://reactbits.dev) | Landing-page effects | Free; Pro from $129 one-time | Animated text and backgrounds for creative sites |
+| 24 | [Cult UI](https://www.cult-ui.com) | Landing-page effects | Free; Pro $129 one-time (sale price) | Unusual components; Pro adds full Next.js starter apps |
+| 28 | [UImaxxing](https://uimaxx.ing) | Landing-page effects | Free; Pro $50 one-time | Flashy AI, fintech and crypto-style pieces |
+| 29 | [Motion Primitives (new)](https://motion-primitives.com) | Landing-page effects | Free; Pro is paid (yearly or lifetime) | Animated text, carousels, dialogs and transitions |
+| 30 | [Skiper UI (new)](https://skiper-ui.com) | Landing-page effects | Some free; Premium $129 one-time | Uncommon, eye-catching components |
+| 31 | [Originkit (new)](https://www.originkit.dev) | Landing-page effects | Free for 10 copies a day; Pro $79/yr or Ultimate $99/yr (sale prices) | 60+ animated components you adjust in the browser before copying |
+| 33 | [ThreeUI (new)](https://threeui.com) | Landing-page effects | Free community edition; Pro $199/yr or $299 one-time | 3D scenes, WebGL backgrounds and hero sections |
+| 40 | [Kobra](https://kobra.systems) | Full component kits | 10 free (personal use only); $199 one-time | A polished, accessible kit for commercial products |
+| 41 | [Arc](https://uiarc.dev) | Full component kits | Free core; Pro $129/yr or $199 one-time ($99 launch deal right now) | Heavily animated components plus page sections |
+| 42 | [beUI](https://beui.dev) | Full component kits | Free; Pro $129/yr or $179 one-time | Heavily animated UI, AI chat pieces and charts |
+| 49 | [Inspira UI (new)](https://inspira-ui.com) | Vue and Svelte | Free; Pro $249 one-time with their current 50%-off code (normally $499) | Animated Vue components in the style of Aceternity UI |
+| 51 | [AICSS](https://www.aicss.dev) | AI chat and agent UI | 12 free; Pro $89 one-time | The same kind of AI chat pieces, and not just for React |
+| 53 | [libraries.dev](https://libraries.dev) | AI chat and agent UI | Free core; Pro $9/mo or $149 one-time | AI-style effects such as glowing borders, orbs and liquid metal |
+| 56 | [shadcnblocks](https://www.shadcnblocks.com) | Page sections and templates | Some free (login needed); paid from $149 one-time | About 2,000 ready-made page sections |
+| 57 | [Easy UI](https://www.easyui.pro) | Page sections and templates | Free templates; Premium $49 one-time (going up to $79) | Starter sites such as a landing page, portfolio or waitlist |
+| 58 | [Tailark (new)](https://tailark.com) | Page sections and templates | Free blocks; paid kits from $249 one-time | Marketing-site blocks, pages and illustrations in several styles |
+| 64 | [Backgrounds Supply](https://backgrounds.supply) | Backgrounds, shaders and tools | 100+ free (personal use only); $49 one-time | Hero and section backgrounds, gradients |
+| 67 | [Unicorn Studio (new)](https://www.unicorn.studio) | Backgrounds, shaders and tools | Free plan; Legend $20/mo or $168/yr | Designing WebGL effects without code, then embedding them |
+| 69 | [tweakcn (new)](https://tweakcn.com) | Backgrounds, shaders and tools | Free; Pro $8/mo | Designing a custom shadcn/ui theme visually, then copying the code |
+| 74 | [deck.gallery](https://deck.gallery) | Inspiration | Free sample; Pro $144/yr | Ideas for slide decks, reports and brand guidelines |
+| 77 | [One Page Love (new)](https://onepagelove.com) | Inspiration | Free to browse; some templates are paid | 9,000+ one-page sites and section examples |
+
+### Unknown pricing — 1
+
+| # | Library | Category | Cost | Best for |
+|---|---------|----------|------|----------|
+| 37 | [Bencho](https://bencho.dev) | Micro-interactions | No pricing shown | Widgets you adjust live before copying (signature pad, code input, radial menu) |
 
 ---
 
