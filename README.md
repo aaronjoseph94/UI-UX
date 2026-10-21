@@ -13,7 +13,7 @@ Costs and “(new)” tags are as in the source table, Oct 2026 — prices and s
 - [By cost — Free vs Paid](#by-cost--free-vs-paid)
 - [How to pick](#how-to-pick)
 - [Architecture — where each category sits](#architecture--where-each-category-sits)
-- [The collection — 79 libraries](#the-collection--79-libraries)
+- [The collection — 84 libraries](#the-collection--84-libraries)
 - [Newer libraries to watch](#newer-libraries-to-watch)
 - [Keeping this list fresh](#keeping-this-list-fresh)
 - [Adding a library](#adding-a-library)
@@ -103,21 +103,26 @@ Costs and “(new)” tags are as in the source table, Oct 2026 — prices and s
 | 77 | [One Page Love (new)](https://onepagelove.com) | Inspiration | — | Free to browse; some templates are paid | 9,000+ one-page sites and section examples |
 | 78 | [Footer.design (new)](https://www.footer.design) | Inspiration | — | Free | Website footers |
 | 79 | [Dark.design (new)](https://www.dark.design) | Inspiration | — | Free | Dark-themed websites |
+| 80 | [Kibo UI (new)](https://www.kibo-ui.com) | Full component kits | React + Tailwind (shadcn/ui registry) | Free | Functional blocks above shadcn primitives — Gantt, Kanban, calendar, roadmap |
+| 81 | [Kokonut UI (new)](https://kokonutui.com) | Landing-page effects | React + Tailwind + Motion (shadcn/ui registry) | Free core (MIT); Pro is paid | Playful animated SaaS / marketing blocks, plus AI inputs |
+| 82 | [HeroUI (new)](https://www.heroui.com) | Full component kits | React (Tailwind v4 + React Aria); React Native via HeroUI Native | Free core (Apache-2.0); Pro is paid | A fully styled React kit you install as a package — polished out of the box |
+| 83 | [Nuxt UI v4 (new)](https://ui.nuxt.com) | Vue and Svelte | Vue or Nuxt + Tailwind | Free | The first full installed Vue kit — 125+ components, 12 templates, free Figma kit |
+| 84 | [Reshaped (new)](https://reshaped.so) | Full component kits | React + Figma | Free | A design system whose Figma library mirrors its React API, with a token-sync plugin |
 
 ---
 
 ## By cost — Free vs Paid
 
-Same 79 libraries, re-sorted by cost. Categories above stay the primary organisation — this is the cross-cutting view when budget is the filter.
+Same 84 libraries, re-sorted by cost. Categories above stay the primary organisation — this is the cross-cutting view when budget is the filter.
 
-- **49 fully free** — no paid tier listed
-- **29 freemium** — free tier / free core + paid Pro / Premium / paid kits
+- **52 fully free** — no paid tier listed
+- **31 freemium** — free tier / free core + paid Pro / Premium / paid kits
 - **1 unknown** — no pricing shown (Bencho)
 - **0 paid-only** — every paid option in this list has a free tier, free core, or free sample. “Paid” here means “has a paid upgrade”, not “costs money to start”.
 
 Note: free ≠ unlimited. Check limits before relying on a free tier: 21st.dev has a daily copy limit, Originkit allows 10 free copies/day, Kobra gives 10 free for personal use only, Backgrounds Supply’s 100+ free are personal-use only.
 
-### Fully free — 49
+### Fully free — 52
 
 | # | Library | Category | Best for |
 |---|---------|----------|----------|
@@ -170,8 +175,11 @@ Note: free ≠ unlimited. Check limits before relying on a free tier: 21st.dev h
 | 76 | [Supahero (new)](https://supahero.io) | Inspiration | Website hero sections |
 | 78 | [Footer.design (new)](https://www.footer.design) | Inspiration | Website footers |
 | 79 | [Dark.design (new)](https://www.dark.design) | Inspiration | Dark-themed websites |
+| 80 | [Kibo UI (new)](https://www.kibo-ui.com) | Full component kits | Functional blocks above shadcn primitives — Gantt, Kanban, calendar, roadmap |
+| 83 | [Nuxt UI v4 (new)](https://ui.nuxt.com) | Vue and Svelte | The first full installed Vue kit — 125+ components, 12 templates, free Figma kit |
+| 84 | [Reshaped (new)](https://reshaped.so) | Full component kits | A design system whose Figma library mirrors its React API, with a token-sync plugin |
 
-### Freemium — free + paid upgrade — 29
+### Freemium — free + paid upgrade — 31
 
 | # | Library | Category | Cost | Best for |
 |---|---------|----------|------|----------|
@@ -204,6 +212,8 @@ Note: free ≠ unlimited. Check limits before relying on a free tier: 21st.dev h
 | 69 | [tweakcn (new)](https://tweakcn.com) | Backgrounds, shaders and tools | Free; Pro $8/mo | Designing a custom shadcn/ui theme visually, then copying the code |
 | 74 | [deck.gallery](https://deck.gallery) | Inspiration | Free sample; Pro $144/yr | Ideas for slide decks, reports and brand guidelines |
 | 77 | [One Page Love (new)](https://onepagelove.com) | Inspiration | Free to browse; some templates are paid | 9,000+ one-page sites and section examples |
+| 81 | [Kokonut UI (new)](https://kokonutui.com) | Landing-page effects | Free core (MIT); Pro is paid (exact price not published at Oct 2026 check) | Playful animated SaaS / marketing blocks, plus AI inputs |
+| 82 | [HeroUI (new)](https://www.heroui.com) | Full component kits | Free core (Apache-2.0); Pro is paid | A fully styled React kit you install as a package — polished out of the box |
 
 ### Unknown pricing — 1
 
@@ -225,7 +235,7 @@ Note: free ≠ unlimited. Check limits before relying on a free tier: 21st.dev h
 Skip React-only libraries. Use: Uiverse, Web Awesome, daisyUI / Flowbite / Preline / HyperUI / Basecoat (Tailwind), plus GSAP / Anime.js / Lenis for animation. Everything in “Works on any site” + “Animation libraries” + “Icons” + “Backgrounds” works here.
 
 **Building in Vue / Svelte?**
-shadcn-vue / shadcn-svelte + Vue Bits / Inspira UI + Nuxt UI (see Watchlist). Don’t force React libraries into Vue.
+shadcn-vue / shadcn-svelte + Vue Bits / Inspira UI + Nuxt UI v4. Don’t force React libraries into Vue.
 
 **Building an AI chat / agent product?**
 AI Elements / assistant-ui / Beautiful UI for the chat shell, plus one landing-effects library for the marketing site. Don’t rebuild thinking states, streaming text, or approval cards from scratch.
@@ -282,7 +292,7 @@ flowchart TB
 
 ---
 
-## The collection — 79 libraries
+## The collection — 84 libraries
 
 ### Start here — 3 libraries
 
@@ -420,7 +430,7 @@ The engines underneath the effects. Learn one well, then layer the copy-paste li
 
 **Best for:** Animated, odometer-style numbers
 
-### Landing-page effects — 13 libraries
+### Landing-page effects — 14 libraries
 
 Hero sections, animated backgrounds, and showpiece pieces for marketing pages. Pick one or two — stacking five looks like five.
 
@@ -502,6 +512,12 @@ Hero sections, animated backgrounds, and showpiece pieces for marketing pages. P
 
 **Best for:** 3D scenes, WebGL backgrounds and hero sections
 
+#### 81. Kokonut UI (new)
+
+🔗 **https://kokonutui.com** · Works in: React + Tailwind + Motion (shadcn/ui registry, `@kokonutui`) · Cost: Free core (MIT); Pro is paid (exact price not published at Oct 2026 check)
+
+**Best for:** Playful animated SaaS / marketing blocks, plus AI inputs — promoted from the Watchlist Oct 21, 2026
+
 ### Micro-interactions — 5 libraries
 
 Small, reusable animated pieces — dialogs, tabs, sliders, dropdowns — that make an app feel polished.
@@ -536,7 +552,7 @@ Small, reusable animated pieces — dialogs, tabs, sliders, dropdowns — that m
 
 **Best for:** About 200 polished animated components, plus blocks and templates
 
-### Full component kits — 7 libraries
+### Full component kits — 10 libraries
 
 Bigger, opinionated sets for whole products. Start here if you want a complete system, not one-off pieces.
 
@@ -582,7 +598,25 @@ Bigger, opinionated sets for whole products. Start here if you want a complete s
 
 **Best for:** Meta's 170+ component design system, now open source
 
-### Vue and Svelte — 4 libraries
+#### 80. Kibo UI (new)
+
+🔗 **https://www.kibo-ui.com** · Works in: React + Tailwind (shadcn/ui registry, `@kibo-ui`) · Cost: Free (open source)
+
+**Best for:** Functional blocks above shadcn primitives — Gantt, Kanban, calendar, roadmap, dropzone, code block. Promoted from the Watchlist Oct 21, 2026. Note: updates slowed in 2026 and the project is now owned by shadcnblocks
+
+#### 82. HeroUI (new)
+
+🔗 **https://www.heroui.com** · Works in: React (Tailwind v4 + React Aria); React Native via HeroUI Native · Cost: Free core (Apache-2.0); Pro is paid
+
+**Best for:** A fully styled React kit you install as a package — polished out of the box, unlike the copy-paste kits. Promoted from the Watchlist Oct 21, 2026
+
+#### 84. Reshaped (new)
+
+🔗 **https://reshaped.so** · Works in: React + Figma · Cost: Free (fully open source since Sep 2025)
+
+**Best for:** A design system whose Figma library mirrors its React API, with a plugin that syncs themes and tokens between code and Figma. Promoted from the Watchlist Oct 21, 2026
+
+### Vue and Svelte — 5 libraries
 
 The shadcn-style ecosystem outside React.
 
@@ -609,6 +643,12 @@ The shadcn-style ecosystem outside React.
 🔗 **https://inspira-ui.com** · Works in: Vue or Nuxt + Tailwind · Cost: Free; Pro $249 one-time with their current 50%-off code (normally $499)
 
 **Best for:** Animated Vue components in the style of Aceternity UI
+
+#### 83. Nuxt UI v4 (new)
+
+🔗 **https://ui.nuxt.com** · Works in: Vue or Nuxt + Tailwind · Cost: Free (MIT — the Pro paywall was removed in v4, Sep 2025)
+
+**Best for:** The first full installed Vue kit — 125+ components, 12 free templates, and a free Figma kit. Promoted from the Watchlist Oct 21, 2026
 
 ### AI chat and agent UI — 6 libraries
 
@@ -817,13 +857,10 @@ No code. Browse before you build, so you are copying a direction, not a template
 
 These are **not yet in the main list** — candidates found in an Oct 2026 sweep of 2025–2026 launches and rewrites. Verify pricing, licence, and that the link is still live before promoting any of them into a category above. Promote with Aaron’s approval — this list is additive-only: don’t delete an existing entry to make room.
 
+**Promoted Oct 21, 2026 (Aaron approved all 5 recommendations from the vetting report):** Kibo UI (#80), Kokonut UI (#81), HeroUI (#82), Nuxt UI v4 (#83), and Reshaped (#84) are now in the main list above. Lightswind UI and Dither UI stay here on hold — pricing and maintenance could not be verified at the Oct 2026 check.
+
 | Library | Link | Category it would join | Why it’s worth a look |
 |---------|------|------------------------|-----------------------|
-| Kibo UI | https://www.kibo-ui.com | Full component kits | Composable shadcn/ui registry — calendars, kanban, Gantt, code blocks, dropzone, AI chat blocks. Higher-level than shadcn primitives, same Tailwind theming. Free / open source. |
-| Kokonut UI | https://kokonutui.com | Landing-page effects | 100+ Tailwind + Motion components, playful SaaS / marketing sections. |
-| HeroUI (formerly NextUI) | https://www.heroui.com | Full component kits | v3 rewrite on Tailwind v4 + React Aria, with a React Native library and AI tooling. The full styled kit this list was missing — polished out of the box, unlike copy-paste kits. |
-| Nuxt UI v4 | https://ui.nuxt.com | Vue and Svelte | 110+ components, 12 templates, Figma kit — now fully open source (Pro paywall removed). The Vue/Nuxt equivalent of a full kit. |
-| Reshaped | https://reshaped.so | Full component kits | Professionally crafted React design system, open-sourced Sep 2025. Neutral design, Figma plugin, accessibility-first. |
 | Lightswind UI | https://lightswind.com | Landing-page effects | Animated React components / modern UI kits, Tailwind-based. |
 | Dither UI | https://ditherui.dev | Landing-page effects | Motion-first React components (Framer Motion + Tailwind + shadcn/ui) built to give AI coding agents better, less generic building blocks. |
 
@@ -849,7 +886,7 @@ Check quarterly (or when starting a new project). This list goes stale fastest o
    - GitHub trending / Product Hunt / r/webdev + r/learnprogramming (new libraries with real stars, not just launches)
    - The Watchlist above — promote anything that’s proven out, then remove it from Watchlist.
 4. **Tags** — drop “(new)” from entries that are no longer new, add it to entries added that quarter.
-5. **Counts** — update the “79 libraries” number, the Contents, and the per-category counts if you add/remove anything.
+5. **Counts** — update the “84 libraries” number, the Contents, and the per-category counts if you add/remove anything.
 
 **What “updated periodically” means here:** a small quarterly pass, not a rewrite. Add, don’t prune — unless a library is dead (site gone, repo archived, no commits in 12+ months), in which case mark it `⚠️ Unmaintained — last checked <date>` instead of deleting it.
 
@@ -872,4 +909,4 @@ Keep the same columns as the source table: Site, Link, Category, Works in, Cost,
 
 ---
 
-*Source: the UI/UX table supplied Oct 2026 (79 entries). Costs as listed there; verify before buying.*
+*Source: the UI/UX table supplied Oct 2026 (79 entries), plus 5 Watchlist promotions approved by Aaron on Oct 21, 2026 (entries 80–84). Costs as listed there; verify before buying.*
